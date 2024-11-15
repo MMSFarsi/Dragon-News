@@ -4,7 +4,7 @@ import Card from '../components/Card';
 
 const CategoryNews = () => {
     const {data}=useLoaderData();
-    console.log(data);
+  
   return (
     <div> 
         <h2>Dragon News Home</h2>

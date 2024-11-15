@@ -11,14 +11,14 @@ const signGoogle =()=>{
   .then(result=>{
     setUser(result.user);
   })
-  .catch(error=>console.log(error.message))
+ 
 }
 const signGithub =()=>{
   signWithGithub()
   .then(result=>{
     setUser(result.user);
   })
-  .catch(error=>console.log(error.message))
+
 }
 
   return (
